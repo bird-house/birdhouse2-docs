@@ -1,0 +1,5 @@
+site_name: Nandu
+nav:
+  - Home: index.md
+  - Developer Guide: dev_guide.md
+theme: material
