@@ -1,0 +1,4 @@
+site_name: Birdhouse
+nav:
+  - Home: index.md
+theme: material
