@@ -1,4 +1,8 @@
 site_name: Birdhouse
 nav:
   - Home: index.md
-theme: material
+  - Release Notes: release_notes.md
+theme:
+  name: material
+  logo: images/logo.svg
+  favicon: images/favicon.ico
