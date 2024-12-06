@@ -18,7 +18,6 @@ jobs:
 
   docs:
     name: Docs (Python${{ matrix.python-version }})
-    needs: lint
     runs-on: ubuntu-latest
     strategy:
       matrix:
