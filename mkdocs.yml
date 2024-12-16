@@ -1,6 +1,7 @@
 site_name: Birdhouse
 nav:
   - Home: index.md
+  - List of Applications: list_ClimateServicesApplicationPackages.md
   - Guidelines: guide_docs.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
