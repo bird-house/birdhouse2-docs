@@ -1,7 +1,7 @@
 site_name: Birdhouse
 nav:
   - Home: index.md
-  - FAIR Climate Services: guide_fairclimateservices.md
+  - Guidelines: guide_docs.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
 theme:
