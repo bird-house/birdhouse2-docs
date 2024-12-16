@@ -1,7 +1,9 @@
 site_name: Birdhouse
 nav:
   - Home: index.md
+  - FAIR Climate Services: guide_fairclimateservices.md
   - Release Notes: release_notes.md
+  - References: bibliography.md 
 theme:
   name: material
   logo: images/logo.svg

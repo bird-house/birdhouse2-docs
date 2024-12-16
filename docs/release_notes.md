@@ -1,6 +1,5 @@
 # Release Notes
 
-
 ## Bonn (December 2024, v1.0.0)
 
 We had a [workshop in
