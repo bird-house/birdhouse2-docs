@@ -21,20 +21,20 @@ Birds are services providing processes for specific thematic subjects. For examp
 | [Rooki](https://www.google.com/url?q=https://github.com/roocs/rooki&amp;sa=D&amp;source=editors&amp;ust=1660816924244993&amp;usg=AOvVaw1PeZJ1lymJDD331QwFM55x) |  PYTHON Library | | 
 
 
-## PyGEO API
+## Based on PyGEO API
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
 | [nandu](https://github.com/bird-house/nandu) | ------- | [Nandu Github repository](https://github.com/bird-house/nandu) |
 
 
-## OGC API Processes
+## Based on OGC API Processes and CWL 
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
 | [weaver](https://pavics-weaver.readthedocs.io/en/latest/) | Execution Management Service that allows the execution of workflows chaining various applications and Web Processing Services inputs and outputs | [Weaver GitHub Repository](https://github.com/crim-ca/weaver) |  
 
-## Web Processing Services (WPS) including AI
+## based on Web Processing Services (WPS) including AI
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
@@ -45,7 +45,7 @@ Birds are services providing processes for specific thematic subjects. For examp
 | [owl](https://clint-owl.readthedocs.io/en/latest/) | Heatwave magnitude index and warm nights| [Owl GitHub Repository](https://github.com/climateintelligence/owl) |
 | [dipper](https://clint-dipper.readthedocs.io/en/latest/) | ------- | [Dipper GitHub Repository](https://github.com/climateintelligence/dipper) |
 
-## Web Processing Services (WPS)
+## based on Web Processing Services (WPS)
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
