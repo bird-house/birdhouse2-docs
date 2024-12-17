@@ -1,6 +1,6 @@
 site_name: Birdhouse
 nav:
-  - Home: index.md
+  - Overview: index.md
   - List of Applications: list_apps.md
   - Guidelines: guide_docs.md
   - Release Notes: release_notes.md
