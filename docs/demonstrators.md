@@ -4,7 +4,7 @@
 
 [Pavics](https://pavics-sdi.readthedocs.io/en/latest/index.html)
 
-[Climatedata](Climatedata.ca)
+[Climatedata](https://climatedata.ca/)
 
 Wekeo
 

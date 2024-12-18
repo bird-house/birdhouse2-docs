@@ -25,7 +25,7 @@ Birds are services providing processes for specific thematic subjects. For examp
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
-| [nandu](https://github.com/bird-house/nandu) | ------- | [Nandu Github repository](https://github.com/bird-house/nandu) |
+| [nandu](https://github.com/bird-house/nandu) | Nandu is a demo for ogcapi-process using pygeoapi (like the Emu for PyWPS) | [Nandu Github repository](https://github.com/bird-house/nandu) |
 
 
 ## Based on OGC API Processes and CWL 
@@ -34,7 +34,7 @@ Birds are services providing processes for specific thematic subjects. For examp
 | -------- | ------- | ------- |
 | [weaver](https://pavics-weaver.readthedocs.io/en/latest/) | Execution Management Service that allows the execution of workflows chaining various applications and Web Processing Services inputs and outputs | [Weaver GitHub Repository](https://github.com/crim-ca/weaver) |  
 
-## based on Web Processing Services (WPS) including AI
+## Based on Web Processing Services (WPS) including AI
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
@@ -43,22 +43,26 @@ Birds are services providing processes for specific thematic subjects. For examp
 | [albatross](https://clint-albatross.readthedocs.io/en/latest/) | Climate resiliance application package for drought assessment | [Albatross GitHub Repository](https://github.com/climateintelligence/albatross) |
 | [shearwater](https://shearwater.readthedocs.io/en/latest/)| Perform detection and forecast of tropical-cyclone activities | [Shearwater GitHub Repository](https://github.com/climateintelligence/shearwater) |
 | [owl](https://clint-owl.readthedocs.io/en/latest/) | Heatwave magnitude index and warm nights| [Owl GitHub Repository](https://github.com/climateintelligence/owl) |
-| [dipper](https://clint-dipper.readthedocs.io/en/latest/) | ------- | [Dipper GitHub Repository](https://github.com/climateintelligence/dipper) |
+<!-- | [dipper](https://clint-dipper.readthedocs.io/en/latest/) | ------- | [Dipper GitHub Repository](https://github.com/climateintelligence/dipper) | -->
 
-## based on Web Processing Services (WPS)
+## Based on Web Processing Services (WPS)
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
-| [emu](https://emu.readthedocs.io/)  |    Demo and testing application for training purpose | Version 0.12 |
-| [finch](https://pavics-sdi.readthedocs.io/) | application package for processing services to calculate climate indices | Deployed in    [Climatedata.ca](Climatedata.ca) and [PAVICS](https://pavics.ouranos.ca) | 
-| [flyingpigon](https://flyingpigeon.readthedocs.io) | Test-suite |  Deployed in [PAVICS](https://pavics.ouranos.ca) | 
-| [rooks](https://github.com/roocs) | Remote operations on climate simulations | Deployed in [COPERNICUS Climate Data Store (CDS)](https://cds.climate.copernicus.eu/#!/home) and CEDA | 
-| [raven](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/notebooks/index.html) | Hydrological modelling |  Deployed in [PAVICS](https://pavics.ouranos.ca) |
-| [hummingbird](http://birdhouse-hummingbird.readthedocs.io/) | data compliance checker | DKRZ internal usage |
-| [goldfinch](https://github.com/cedadev/goldfinch) | filtering and extraction of MIDAS data | Deployed at CEDA  |
-| [pelican](https://github.com/bird-house/pelican) | WPS supporting ESGF compute API | | 
-| [magpie](https://pavics-magpie.readthedocs.io/en/latest/)    |       |       |
+| [emu](https://emu.readthedocs.io/)  |  Demo and testing application for training purpose (like the Nandu for PyGeoAPI) | [Emu GitHub repository](https://github.com/bird-house/emu) |
+| [finch](https://pavics-sdi.readthedocs.io/projects/finch) | application package for processing services to calculate climate indices | [finch GitHub Repository](https://github.com/bird-house/finch)| 
+| [flyingpigon](https://flyingpigeon.readthedocs.io) | Test-suite |  [Flyingpigeon gitHub Repository](https://github.com/bird-house/flyingpigeon) | 
+| [rooks](https://roocs.github.io/) | Remote operations on climate simulations | [Rooks GitHub Organisation](https://github.com/roocs) | 
+| [raven](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/index.html) | Hydrological modeling and analytics | [Raven GitHub repository](https://github.com/Ouranosinc/raven.git) |
+| [hummingbird](http://birdhouse-hummingbird.readthedocs.io/) | data compliance checker | [Hummingbird GitHub Repository](https://github.com/bird-house/hummingbird.git) |
+| [goldfinch](https://github.com/cedadev/goldfinch) | filtering and extraction of MIDAS data | [Goldfinch GitHub Repository](https://github.com/cedadev/goldfinch)  |
+| [pelican](https://birdhouse-pelican.readthedocs.io/en/latest/) | WPS supporting ESGF compute API | [Pelikan GitHub Repository](https://github.com/bird-house/pelican)   | 
 
+
+## based on REST API
+| Name and Documentation  | Usage | Source |
+| -------- | ------- | ------- |
+| [magpie](https://pavics-magpie.readthedocs.io/en/latest/)  |   Magpie is service for AuthN/AuthZ accessible via a REST API implemented with the Pyramid web framework  | [Magpie GitHub Repository](https://github.com/Ouranosinc/Magpie)  |
 
 <!-- 
 | [OGC EO-Pilot](http://docs.opengeospatial.org/per/20-045.html%23_open_source_software_4&amp;sa=D&amp;source=editors&amp;ust=1660816924243900&amp;usg=AOvVaw22QBuuFacKi801Tvd-c-LC)  | | | 
