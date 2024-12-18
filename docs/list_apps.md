@@ -14,11 +14,11 @@ Birds are services providing processes for specific thematic subjects. For examp
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
-| [Twitcher](http://twitcher.readthedocs.io/) | Security Proxy for WPS, WCS, WMS     | Deployed in [PAVICS](https://pavics-sdi.readthedocs.io/en/latest/)   | 
-| [cookiecutter-birdhouse](https://cookiecutter-birdhouse.readthedocs.io) | Utility to create an OGC API Processes application package skeleton |  Version 0.5 | 
-| [birdy](https://birdy.readthedocs.io)  |   Python WPS client to call a serverside deployed application package  |   Version 0.8.1  |
-| [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/)  | Graphical User Interphase Frontend   | Deployed at [CLINT Demonstrator](clint.dkrz.de)   |
-| [Rooki](https://www.google.com/url?q=https://github.com/roocs/rooki&amp;sa=D&amp;source=editors&amp;ust=1660816924244993&amp;usg=AOvVaw1PeZJ1lymJDD331QwFM55x) |  PYTHON Library | | 
+| [Twitcher](http://twitcher.readthedocs.io/) | Security Proxy for WPS, WCS, WMS     |  [Twitcher GitHub Repository](https://github.com/bird-house/twitcher)  | 
+| [cookiecutter-birdhouse](https://cookiecutter-birdhouse.readthedocs.io) | Utility to create an OGC API Processes application package skeleton |  [Cokiecutter-birdhouse GitHub Repository](https://github.com/bird-house/cookiecutter-birdhouse) | 
+| [birdy](https://birdy.readthedocs.io)  |   Python WPS client to call a serverside deployed application package  |   [birdy GitHub Repository](https://birdy.readthedocs.io/en/latest/)  |
+| [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/)  | Graphical User Interphase Frontend   | [Phoenix GitHub Repository](https://github.com/bird-house/pyramid-phoenix.git)   |
+| [Rooki](https://rooki.readthedocs.io/en/latest/) |  The rooki python package is a lightweight wrapper around the birdy client library for WPS |  [Rooki GitHub Repository](https://github.com/roocs/rooki) | 
 
 
 ## Based on PyGEO API
