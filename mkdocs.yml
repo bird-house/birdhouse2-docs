@@ -1,8 +1,11 @@
 site_name: Birdhouse
 nav:
   - Overview: index.md
-  - List of Applications: list_apps.md
+  - Fair Climate Service: fair_cs.md
   - Guidelines: guide_docs.md
+  - Tutorials: tutorials.md
+  - Demonstrators: demonstrators.md
+  - List of Applications: list_apps.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
 theme:
