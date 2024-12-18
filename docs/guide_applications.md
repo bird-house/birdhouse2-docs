@@ -7,9 +7,7 @@
 
 > To be developed
 
-## Set up a birdhouse application based on WPS 
-
-# Develop your own climate application package
+## Set up a birdhouse application package based on WPS 
 
 The following sections are describing how to transfer scientific methods into technical services which are deployable in CRIS.
 
