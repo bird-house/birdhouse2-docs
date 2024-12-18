@@ -1,4 +1,6 @@
-# Guidelines
+# Tutorials
+
+## 
 
 
 ## Build the docs
@@ -28,13 +30,13 @@ Or serve the docs for your browser:
 mkdocs serve
 ```
 
-## Adding new pages
+### Adding new pages
 
 Please read the docs at [mkdocs](https://www.mkdocs.org/) and also at [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 There is a [user guide](https://www.mkdocs.org/user-guide/writing-your-docs/) on mkdocs describing how to add new pages with markdown.
 
-## Convert rst to markdown
+### Convert rst to markdown
 
 You can convert `rst` files to *markdown* using [pandoc](https://pandoc.org/).
 

@@ -1,8 +1,13 @@
 site_name: Birdhouse
 nav:
-  - Home: index.md
+  - Overview: index.md
+  - FAIR Climate Services: fair_cs.md
+  - Application development: guide_applications.md
+  - Deployment: guide_deploy.md
+  - Server administration: guide_serveradmin.md
+  - Tutorials: tutorials.md
+  - Demonstrators: demonstrators.md
   - List of Applications: list_apps.md
-  - Guidelines: guide_docs.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
 theme:
