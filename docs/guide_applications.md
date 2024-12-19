@@ -124,8 +124,8 @@ A Process is calling several functions during the performance. Since WPS is a au
 
 In practice, the functions should be encapsulated in **try** and **except** calls and appropriate information given to the logfile or shown as a status message. The logger has several options to to influence the running code and the information writing to the logfile:
 
-```{figure} /media/guide_fuctionschain.png
-```
+![image] /images/guide_fuctionschain.png
+
 
 ```python
    # the following two line needs to be in the beginning of the *.py file.

@@ -3,10 +3,12 @@ nav:
   - Overview: index.md
   - FAIR Climate Services: fair_cs.md
   - Application development: guide_applications.md
-  - Deployment: guide_deploy.md
-  - Server administration: guide_serveradmin.md
+  - Climate Services Ecosystem: guide_deploy.md
+  - Portals for Climate Services: guide_GUI-phoenix.md
+  - Commands for Climate Services: guide_commands.md
   - Tutorials: tutorials.md
   - Demonstrators: demonstrators.md
+  - Contribution: contribution.md
   - List of Applications: list_apps.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
