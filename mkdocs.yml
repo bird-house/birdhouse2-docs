@@ -9,7 +9,6 @@ nav:
   - Tutorials: tutorials.md
   - Demonstrators: demonstrators.md
   - Contribution: contribution.md
-  - List of Applications: list_apps.md
   - Release Notes: release_notes.md
   - References: bibliography.md 
 theme:

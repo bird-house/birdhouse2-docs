@@ -99,8 +99,7 @@ In contrast to a script that you are running locally in an individual way a serv
 The following figure is illustrating the principles design of a technical service. Input data needs to be provided by a given address to the appropriate resouces and parameters to modify the execution needs to be provided as well.
 On the other side, the number of output files are defined as well. Here number and format will be fixed.
 
-```{figure} /media/guide_processscheema.png
-```
+| ![](images/guide_processscheema.png) |
 
 Basically your existing code can be integrated by simply taking care of some rules:
 
@@ -124,7 +123,7 @@ A Process is calling several functions during the performance. Since WPS is a au
 
 In practice, the functions should be encapsulated in **try** and **except** calls and appropriate information given to the logfile or shown as a status message. The logger has several options to to influence the running code and the information writing to the logfile:
 
-![image] /images/guide_fuctionschain.png
+| ![](images/guide_fuctionschain.png) |
 
 
 ```python
