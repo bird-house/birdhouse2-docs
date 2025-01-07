@@ -43,28 +43,31 @@ Birds are services providing processes for specific thematic subjects. For examp
 
 ## **Frontend - Graphical User Interphase**
 
-| Name and Documentation  | Usage | Source |
+| Name  | Usage | Source |
 | -------- | ------- | ------- |
-| **Phoenix** | Graphical User Interphase Frontend   | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pyramid-phoenix.readthedocs.io/en/latest/) <br> [![GitHub Phoenix](https://img.shields.io/badge/GitHub-phoenix-brightgreen.svg)](https://github.com/bird-house/pyramid-phoenix.git)  |
+| **Phoenix** | Graphical User Interphase Frontend | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pyramid-phoenix.readthedocs.io/en/latest/) <br> [![GitHub Phoenix](https://img.shields.io/badge/GitHub-phoenix-brightgreen.svg)](https://github.com/bird-house/pyramid-phoenix.git) |
 
 
 ## **Climate Services Application Packages**
 
-| Name and Documentation  | Usage | Source | Standard |
+| Name  | Usage | Standard | Source | 
 | -------- | ------- | ------- | ------- |
-| [weaver](https://pavics-weaver.readthedocs.io/en/latest/) | Execution Management Service that allows the execution of workflows chaining various applications and Web Processing Services inputs and outputs | [Weaver GitHub Repository](https://github.com/crim-ca/weaver) | OGC-API-Processes  |
-| [finch](https://pavics-sdi.readthedocs.io/projects/finch) | application package for processing services to calculate climate indices | [finch GitHub Repository](https://github.com/bird-house/finch)|  pyWPS |
-| [rooks](https://roocs.github.io/) | Remote operations on climate simulations | [Rooks GitHub Organisation](https://github.com/roocs) |  pyWPS |
-| [raven](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/index.html) | Hydrological modeling and analytics | [Raven GitHub repository](https://github.com/Ouranosinc/raven.git) |
-| [duck](https://clint-duck.readthedocs.io/en/latest/) | AI enhanced process to Fill in missing values | [Duck GitHub Repository](https://github.com/climateintelligence/duck) |  pyWPS |
-| [hawk](https://clint-hawk.readthedocs.io/en/latest/) | Causal analysis for climate data or, in general, for time-series | [Hawk Github Repository](https://github.com/climateintelligence/hawk)|
-| [albatross](https://clint-albatross.readthedocs.io/en/latest/) | Climate resiliance application package for drought assessment | [Albatross GitHub Repository](https://github.com/climateintelligence/albatross) |  pyWPS |
-| [shearwater](https://shearwater.readthedocs.io/en/latest/)| Perform detection and forecast of tropical-cyclone activities | [Shearwater GitHub Repository](https://github.com/climateintelligence/shearwater) |  pyWPS |
-| [owl](https://clint-owl.readthedocs.io/en/latest/) | Heatwave magnitude index and warm nights| [Owl GitHub Repository](https://github.com/climateintelligence/owl) | pyWPS |
-| [hummingbird](http://birdhouse-hummingbird.readthedocs.io/) | data compliance checker | [Hummingbird GitHub Repository](https://github.com/bird-house/hummingbird.git) | pyWPS |
-| [goldfinch](https://github.com/cedadev/goldfinch) | filtering and extraction of MIDAS data | [Goldfinch GitHub Repository](https://github.com/cedadev/goldfinch)  | pyWPS |
-| [pelican](https://birdhouse-pelican.readthedocs.io/en/latest/) | WPS supporting ESGF compute API | [Pelikan GitHub Repository](https://github.com/bird-house/pelican) | pyWPS |
-| [magpie](https://pavics-magpie.readthedocs.io/en/latest/)  |   Magpie is service for AuthN/AuthZ accessible via a REST API implemented with the Pyramid web framework  | [Magpie GitHub Repository](https://github.com/Ouranosinc/Magpie)  | REST API  |
+| **Weaver** | Execution Management Service that allows the execution of workflows chaining various applications and Web Processing Services inputs and outputs | OGC-API-Processes  |
+[![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pavics-weaver.readthedocs.io/en/latest/) <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-weaver-brightgreen.svg)](https://github.com/crim-ca/weaver) |
+| **finch** | application package for processing services to calculate climate indices |  pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pavics-sdi.readthedocs.io/projects/finch) <br> [![GitHub Finch](https://img.shields.io/badge/GitHub-weaver-brightgreen.svg)](https://github.com/bird-house/finch) |
+| **rooks**| Remote operations on climate simulations |  pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://rooki.readthedocs.io/en/latest/) <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-rooki-brightgreen.svg)](https://roocs.github.io/) |
+| **raven** | Hydrological modeling and analytics | pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pavics-sdi.readthedocs.io/projects/raven/en/latest/index.html) <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-raven-brightgreen.svg)](https://github.com/Ouranosinc/raven.git) |
+| **duck** | AI enhanced process to fill in missing values |  pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://clint-duck.readthedocs.io/en/latest/) <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-weaver-brightgreen.svg)](https://github.com/climateintelligence/duck) |
+| **hawk** | Causal analysis for climate data or, in general, for time-series | pyWPS| [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://clint-hawk.readthedocs.io/en/latest/) <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-hawk-brightgreen.svg)](https://github.com/climateintelligence/hawk) |
+| **albatross** | Climate resiliance application package for drought assessment | [Albatross GitHub Repository]() |  pyWPS | [![Documentation Status](https://clint-albatross.readthedocs.io/en/latest/)]() <br> [![GitHub Weaver](https://img.shields.io/badge/GitHub-albatross-brightgreen.svg)](https://github.com/climateintelligence/albatross)|
+| **shearwater** | Perform detection and forecast of tropical-cyclone activities |  pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://shearwater.readthedocs.io/en/latest/) <br> [![GitHub Shearwater](https://img.shields.io/badge/GitHub-shearwater-brightgreen.svg)](https://github.com/climateintelligence/shearwater)|
+| **owl** | Heatwave magnitude index and warm nights | pyWPS | [![Documentation Status](https://clint-owl.readthedocs.io/en/latest/)]() <br> [![GitHub Owl](https://img.shields.io/badge/GitHub-owl-brightgreen.svg)](https://github.com/climateintelligence/owl)|
+| **hummingbird** | data compliance checker | [Hummingbird GitHub Repository]() | pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](http://birdhouse-hummingbird.readthedocs.io/) <br> [![GitHub Hummingbird](https://img.shields.io/badge/GitHub-hummingbird-brightgreen.svg)](https://github.com/bird-house/hummingbird.git)|
+| **goldfinch** | filtering and extraction of MIDAS data | pyWPS |[![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/cedadev/goldfinch) <br> [![GitHub Goldfinch](https://img.shields.io/badge/GitHub-weaver-brightgreen.svg)](https://github.com/cedadev/goldfinch)|
+| **pelican** | WPS supporting ESGF compute API | pyWPS |
+[![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://birdhouse-pelican.readthedocs.io/en/latest/) <br> [![GitHub Pelican](https://img.shields.io/badge/GitHub-pelican-brightgreen.svg)](https://github.com/bird-house/pelican)|
+| **magpie**  |   Magpie is service for AuthN/AuthZ accessible via a REST API implemented with the Pyramid web framework | REST API  | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pavics-magpie.readthedocs.io/en/latest/) <br> [![GitHub Magpie](https://img.shields.io/badge/GitHub-magpie-brightgreen.svg)](https://github.com/Ouranosinc/Magpie)| 
+
 
 <!-- | [dipper](https://clint-dipper.readthedocs.io/en/latest/) | ------- | [Dipper GitHub Repository](https://github.com/climateintelligence/dipper) | -->
 
