@@ -24,7 +24,7 @@ The legacy docs for birds with [PyWPS](https://pywps.org/) (Web Processing Servi
 Birds are services providing processes for specific thematic subjects. For example to access climate data or to run a cyclone tracking tool. The services are using pygeoapi from the GeoPython project. Birdhouse provides tools (cockiecutter-template, birdy client, docker, ...) to make it easier to build, use and deploy new thematic birds.
 
 
-## Testsuits 
+## **Testsuits** 
 
 | Name and Documentation  | Usage | Standard | Source |
 | -------- | ------- | ------- | ------- |
@@ -32,7 +32,7 @@ Birds are services providing processes for specific thematic subjects. For examp
 | **emu**  |  Demo and testing application for training purpose (like the Nandu for PyGeoAPI) | pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://emu.readthedocs.io/) <br> [![GitHub Emu](https://img.shields.io/badge/GitHub-emu-brightgreen.svg)](https://github.com/bird-house/emu) |
 | **flyingpigon**  | Test-suite for experimenting on processes and data analyitcs|  pyWPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://flyingpigeon.readthedocs.io) <br> [![GitHub Flyingpigeon](https://img.shields.io/badge/GitHub-flyingpigeon-brightgreen.svg)](https://github.com/bird-house/flyingpigeon) |
 
-## Utilities and Clients
+## **Utilities and Clients**
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
@@ -41,14 +41,14 @@ Birds are services providing processes for specific thematic subjects. For examp
 | **birdy**  |   Python WPS client to call a serverside deployed application package  | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://birdy.readthedocs.io) <br> [![GitHub birdy](https://img.shields.io/badge/GitHub-birdy-brightgreen.svg)](https://birdy.readthedocs.io/en/latest/) |
 | **Rooki**  |  The rooki python package is a lightweight wrapper around the birdy client library for WPS | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://rooki.readthedocs.io/en/latest/) <br> [![GitHub Rooki](https://img.shields.io/badge/GitHub-birdy-brightgreen.svg)](https://github.com/roocs/rooki) | 
 
-## Frontend - Graphical User Interphase
+## **Frontend - Graphical User Interphase**
 
 | Name and Documentation  | Usage | Source |
 | -------- | ------- | ------- |
 | **Phoenix** | Graphical User Interphase Frontend   | [![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](https://pyramid-phoenix.readthedocs.io/en/latest/) <br> [![GitHub Phoenix](https://img.shields.io/badge/GitHub-phoenix-brightgreen.svg)](https://github.com/bird-house/pyramid-phoenix.git)  |
 
 
-## Climate Services Applications for data assessments
+## **Climate Services Application Packages**
 
 | Name and Documentation  | Usage | Source | Standard |
 | -------- | ------- | ------- | ------- |
