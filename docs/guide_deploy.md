@@ -135,16 +135,10 @@ Now you can log in (upper right corner) with your Phoenix password
 created previously. Phoenix is just a graphical interface with no more
 function than looking nice ;-).
 
-### Register a service in Phoenix Web App
+### Register a service in Phoenix Web GUI
 
-:::: note
-::: title
-Note
-:::
 
-Please read the [Phoenix
-documentation](https://pyramid-phoenix.readthedocs.io/en/latest/user_guide.html#)
-::::
+Please read the [Phoenix documentation](https://pyramid-phoenix.readthedocs.io/en/latest/user_guide.html#)
 
 Your first administration step is to register *flyingpigeon* as a
 service. For that, log in with your phoenix password. In the upper right
