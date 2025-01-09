@@ -2,6 +2,7 @@ site_name: Birdhouse
 nav:
   - Overview: index.md
   - FAIR Climate Services: fair_cs.md
+  - Applications: apps.md
   - Application development: guide_applications.md
   - Climate Services Ecosystem: guide_deploy.md
   - Portals for Climate Services: guide_GUI-phoenix.md

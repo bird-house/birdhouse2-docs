@@ -4,7 +4,7 @@
 | :--: |
 |  |
 
-[![Documentation Status](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://birdhouse.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://img.shields.io/badge/docs-latest-blue.svg)](http://birdhouse.readthedocs.io/en/latest/?badge=latest)
 [![GitHub license](https://img.shields.io/github/license/bird-house/birdhouse2-docs.svg)](https://github.com/bird-house/birdhouse2-docs/blob/main/LICENSE)
 [![Join the chat at Gitter](https://badges.gitter.im/bird-house/birdhouse.svg)](https://gitter.im/bird-house/birdhouse?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![GitHub Birdhouse](https://img.shields.io/badge/GitHub-Birdhouse-brightgreen.svg)](https://github.com/bird-house)
@@ -19,6 +19,12 @@ In general the deveopers of the various application packages were choosing names
 Currently there are application packages following the older **Web Processing Services (WPS)** in the python realisation with [PyWPS](https://pywps.org/). 
 Newer realistaions are based on **OGC-API Processes** in the realisetion of 
 [pygeoapi](https://pygeoapi.io/). 
+
+
+| ![](images/Co-Funded-By-the-EU.png) |
+| :--: |
+|  |
+
 
 <!-- The legacy docs for birds (Web Processing Service) can be found on [GitHub](https://github.com/bird-house/birdhouse-docs) and on [ReadTheDocs](https://birdhouse.readthedocs.io/en/latest/). -->
 
