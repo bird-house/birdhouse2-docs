@@ -23,7 +23,8 @@ Newer realistaions are based on **OGC-API Processes** in the realisetion of
 
 | ![](images/Co-Funded-By-the-EU.png) |
 | :--: |
-|  |
+| <p style="background-color:grey"> ![](images/logos/BritishColumbia_Logo_Horizontal_Grey_Reverse.png) ![](images/logos/canadian-foundation-innovation-logo-new-light.svg) ![](images/logos/computer-research-institute-of-montreal-crim-vector-logo%201.svg) ![](images/logos/concordia-logo.svg) ![](images/logos/economie-science-et-innovation-quebec-seeklogo%201.svg) ![](images/logos/logo-canarie.png) ![](images/logos/logo-eccc-en.png) ![](images/logos/logo-pcic.png) ![](images/logos/mcgill-university-2%201.svg) ![](images/logos/ontario-provincial-new-seeklogo%201.svg) ![](images/logos/ouranos_logo_horizontal_blanc.png) ![](images/logos/UofT-white-on-transparent.png) </p> |  
+| :--: |
 
 
 <!-- The legacy docs for birds (Web Processing Service) can be found on [GitHub](https://github.com/bird-house/birdhouse-docs) and on [ReadTheDocs](https://birdhouse.readthedocs.io/en/latest/). -->
