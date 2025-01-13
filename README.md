@@ -1,5 +1,4 @@
 # **Climate Services Information System for FAIR Climate Services.**
-Build your own technical infrastructure for your purpose
 
 | ![](images/birdhouse-ecosphere.svg) |
 | :--: |
@@ -12,7 +11,6 @@ Build your own technical infrastructure for your purpose
 
 
 The following sections are instructions, best practises, examples and backgrounds around **Climate Services Information Systems** underpinning standardised climate services. 
-
 
 In general the deveopers of the various application packages were choosing names for thir software named after bird names, and the entire collection of the software packages are called **birdhouse**. The entire collection of various application packages, utilities and tools are deveoped within various projects and frames and are represeting different stages of maturity. Since this source of application packages are under constant impovement, a variety of generations of standards is present. 
 

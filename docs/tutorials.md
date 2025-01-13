@@ -1,9 +1,17 @@
 # Tutorials
 
-## 
+<!-- 
+## Get familiar with birdhouse 
+general tutorials 
 
+## Calculate climate indices
+Finch 
 
-## Build the docs
+## Extreme weather event detection
+CLINT summer school
+ -->
+
+## How to contribute to this documentation
 
 Clone the docs repo from GitHub:
 ```console

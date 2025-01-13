@@ -17,7 +17,6 @@ the birdhouse framework.
     Union\'s [Copernicus Climate Change
     Service](https://climate.copernicus.eu/)).
 
-
 ## PAVICS
 
 -   [PAVICS](https://ouranosinc.github.io/pavics-sdi/): Platform for
