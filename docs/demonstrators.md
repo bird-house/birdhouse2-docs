@@ -29,7 +29,9 @@ the birdhouse framework.
     [PAVICS](https://ouranosinc.github.io/pavics-sdi/) allowing users to
     perform hydrological modeling and analysis.
 
-[Pavics](https://pavics-sdi.readthedocs.io/en/latest/index.html)
+[Pavics documentation ](https://pavics-sdi.readthedocs.io/en/latest/index.html)
+
+[Pavics deployment](https://birdhouse-deploy.readthedocs.io/en/latest/#birdhouse)
 
 
 ## DACCS
