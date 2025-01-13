@@ -1,4 +1,5 @@
-# Birdhouse Documentation
+# **Climate Services Information System for FAIR Climate Services.**
+Build your own technical infrastructure for your purpose
 
 | ![](images/birdhouse-ecosphere.svg) |
 | :--: |
@@ -9,7 +10,6 @@
 [![Join the chat at Gitter](https://badges.gitter.im/bird-house/birdhouse.svg)](https://gitter.im/bird-house/birdhouse?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![GitHub Birdhouse](https://img.shields.io/badge/GitHub-Birdhouse-brightgreen.svg)](https://github.com/bird-house)
 
-# **Build your own Climate Services Information System for FAIR Climate Services.**
 
 The following sections are instructions, best practises, examples and backgrounds around **Climate Services Information Systems** underpinning standardised climate services. 
 
@@ -28,7 +28,6 @@ Newer realistaions are based on **OGC-API Processes** in the realisetion of
 
 
 <!-- The legacy docs for birds (Web Processing Service) can be found on [GitHub](https://github.com/bird-house/birdhouse-docs) and on [ReadTheDocs](https://birdhouse.readthedocs.io/en/latest/). -->
-
 <!-- Guidelines and tutorials with are realted to the workflows of WPS are documented in the [previous version of birdhouse](https://birdhouse.readthedocs.io/en/latest/)  -->
 
 
