@@ -1,4 +1,6 @@
-# Deployment of Services
+# Deploy an ecosystem of Climate Services Infromation System
+
+The birdhouse `framework is modular organized <framework_structure>`{.interpreted-text role="ref"} to enable a flexible architecture design depending on the projects needs. Due to the OCG Standard, software components non-birdhouse components can be combined for interoperability. Here are some examples of real projects to show the flexibility and potential of the birdhouse framework.
 
 > Extended explanation of deployment options including entire scripts are available in the [birdhouse-deploy repository](https://birdhouse-deploy.readthedocs.io/en/latest/) 
 
