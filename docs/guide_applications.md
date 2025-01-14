@@ -1,21 +1,15 @@
-# Instructions
+# How to spin-off a climate services application package
 
-> **Code of Conduct:** Before we start please be aware that contributors to this project are expected to act respectfully toward others in accordance with the [OSGeo Code of Conduct](https://www.osgeo.org/code_of_conduct/)
+The following sections are describing how to transfer scientific methods into technical services which are deployable in Climate Services Application Packages. Birdhouse offers utilities to set up Climate Services Application Packages complient to international approved standards. 
+The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The environments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
 
 
 ## Set up a birdhouse application based on PyGeoAPI 
 
-> To be developed
+> Currently an dedicated utility to set up a Climate Services Application Packages based on pygeoapi is under developement. [Nandu](https://nandu.readthedocs.io/en/latest/) is the current existing prototype, it is planned to transfer WPS into OGC-API Processes based applications within the year 2025. 
 
 ## Set up a birdhouse application package based on WPS 
 
-The following sections are describing how to transfer scientific methods into technical services which are deployable in CRIS.
-
-## Get started with the environment
-
-The climate application packages (=birds) are designed to run in their own environment. This is avoiding dependency conflicts, when multiple birds are installed in a Climate Resilience Information System. The environments are organized with [conda](https://docs.conda.io/en/latest/) repective [mamba](https://github.com/conda-forge/miniforge#mambaforge).
-
-## Set up the skeleton of your new climate application package
 The following sections are describing how to transfer scientific methods into technical services which are deployable in climate resilience information systems. This is necessary when appropriate scientific methods are not already available and accessible as technical services. [Birdhouse](http://bird-house.github.io/) organisation lowers the barriers to set up new climate application package by providing tools enable you to build your own customised [OGC API Processes](https://ogcapi.ogc.org/processes/) application in support of web-based geospatial (climate) data analysis.
 
 Within the Birdhouse organisation you can find an appropriate utility to set up a skeleton for a new climate application package:
