@@ -1,9 +1,35 @@
 # Tutorials
 
-## 
+## Calling a Service (birdy)
+
+[birdy](https://github.com/bird-house/birdy.git)
+
+## Climate Indices (finch):
+
+**Finch** is providing services to calculate climate indices widely used in climate change adaptation planing processes. Have a look on the examples of the finch documentation: [Climate Indices](https://pavics-sdi.readthedocs.io/projects/finch/en/latest/notebooks/index.html)
+
+## Hydrological models (raven):
+
+WPS raven is providing hydrological models for e.g. hydro-power controlling and sustainable planing. Have a look on the examples of the raven documentation: [Hydrological Model](https://pavics-raven.readthedocs.io/en/latest/notebooks/index.html)
 
 
-## Build the docs
+<!-- 
+docs/source/examples.rst
+
+tutorial_basic tutorial_pywps tutorial_birdy tutorial_wps tutorial_finch
+tutorial_raven tutorial_server tutorial_r
+
+## Get familiar with birdhouse 
+general tutorials 
+
+## Calculate climate indices
+Finch 
+
+## Extreme weather event detection
+CLINT summer school
+ -->
+
+## How to contribute to this documentation
 
 Clone the docs repo from GitHub:
 ```console
