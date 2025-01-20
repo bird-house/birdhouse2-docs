@@ -1,23 +1,35 @@
 # Tutorials
 
-## Calling a Service (birdy)
+Here you can find a collection of tutorials, provided by the several contributing initiatives.
 
-[birdy](https://github.com/bird-house/birdy.git)
+## Getting started: Calling a Service with python 
 
-## Climate Indices (finch):
+To call a service within a python code, [birdy](https://github.com/bird-house/birdy.git) is provided as a client to do this job. 
 
-**Finch** is providing services to calculate climate indices widely used in climate change adaptation planing processes. Have a look on the examples of the finch documentation: [Climate Indices](https://pavics-sdi.readthedocs.io/projects/finch/en/latest/notebooks/index.html)
+``` python 
+from birdy import WPSClient
+emu = WPSClient(url="http://localhost:5000/wps")
+emu_i = WPSClient(url="http://localhost:5000/wps", progress=True)
+emu.hello(name="Birdy").get()[0]
+# Run a long running process
+result = emu_i.sleep(delay="1.0")
+result.get()[0]
+```
+> Further tutorials on how to run the birdy client can be found at [birdy documentation] (https://birdy.readthedocs.io/en/latest/examples.html)
 
-## Hydrological models (raven):
+## Calculating Climate Indices
+**Finch** is providing services to calculate climate indices widely used in climate change adaptation planing processes. Have a look on the examples of the [finch documentation](https://pavics-sdi.readthedocs.io/projects/finch/en/latest/notebooks/index.html), where executable *jupyter notebooks* are provided on how to calculate climate indices. 
 
-WPS raven is providing hydrological models for e.g. hydro-power controlling and sustainable planing. Have a look on the examples of the raven documentation: [Hydrological Model](https://pavics-raven.readthedocs.io/en/latest/notebooks/index.html)
+## Running hydrological models
+**raven** is providing hydrological models for e.g. hydro-power controlling and sustainable planing. Have a look on the examples of the raven documentation: [Hydrological Model](https://pavics-raven.readthedocs.io/en/latest/notebooks/index.html)
 
+## Artificial Intelligence enhanced climate servies
+Extreme event detection and prediction for cyclon activity, droughts, heatwaves or floods, using artificial intelligence methodes has been developed in the CLINT Project. Juypter Notebooks on how to handle and run this proceses are proviced in the [Climate Intelligence CLINT Project](https://github.com/climateintelligence/CLINT-tutorials) 
 
 <!-- 
 docs/source/examples.rst
+tutorial_basic tutorial_pywps tutorial_wps tutorial_server tutorial_r
 
-tutorial_basic tutorial_pywps tutorial_birdy tutorial_wps tutorial_finch
-tutorial_raven tutorial_server tutorial_r
 
 ## Get familiar with birdhouse 
 general tutorials 
