@@ -1,30 +1,22 @@
-# Deploy an ecosystem of Climate Services Infromation System
+# **Deploy an ecosystem of Climate Services Infromation System**
 
-The birdhouse `framework is modular organized <framework_structure>`{.interpreted-text role="ref"} to enable a flexible architecture design depending on the projects needs. Due to the OCG Standard, software components non-birdhouse components can be combined for interoperability. Here are some examples of real projects to show the flexibility and potential of the birdhouse framework.
+The **birdhouse framework** is modular organized to enable a flexible architecture design depending on the projects needs. To enable FAIR Climate Services the applications are cpmoient to international approved standards, mainly following OGC Standards. Therefore software components developed outside of the birdhouse framework can be combined in the architectures enshuring interoperability.
+
+![](images/birdhouse-framework.png)
 
 > Extended explanation of deployment options including entire scripts are available in the [birdhouse-deploy repository](https://birdhouse-deploy.readthedocs.io/en/latest/) 
 
-## Example: Duck Demo App
+## Delopy a single service: Inpaint missing values 
 
-Duck is a demo web-application for the *CLINT* project.
-
-Smartduck is a demo web-application of AI-enhanced Climate Science.
-It is based on the [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/) web-application from the [Birdhouse](http://bird-house.github.io/) collection and makes use of the [PyWPS](https://pywps.org/) Python package, which is an implementation of the [Web Processing Service](https://www.ogc.org/standards/wps) standard from the [Open Geospatial Consortium](https://www.ogc.org/).
-
-Smartduck uses [CRAI](https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint), a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets[^1].
+The following is a demo web-application developed within the the Climate Intellignce [CLINT project](https://climateintelligence.eu) providing a process to inpaint missing values in datasets with AI-enhanced Climate Science. It is based on the [Phoenix](https://pyramid-phoenix.readthedocs.io/en/latest/) web-application from the [Birdhouse](http://bird-house.github.io/) collection and makes use of the [PyWPS](https://pywps.org/) Python package, which is an implementation of the [Web Processing Service](https://www.ogc.org/standards/wps) standard from the [Open Geospatial Consortium](https://www.ogc.org/). The implemented scientific methode is available as application **Climate Reconstraction AI** [CRAI](https://github.com/FREVA-CLINT/climatereconstructionAI/tree/clint), a state-of-the-art deep learning based inpainting technology to infill missing values in climate datasets[^1].
 
 The current demo gives the possibility to infill near-surface air temperature anomalies in the [HadCRUT4](https://www.metoffice.gov.uk/hadobs/hadcrut4/) and [HadCRUT5](https://www.metoffice.gov.uk/hadobs/hadcrut5/) datasets. The input and output netCDF files are handled through an intuitive user interface.
 
 [^1]: [Kadow, C. *et al.*, *Nature Geoscience* 13, 408–413 (2020)](http://dx.doi.org/10.1038/s41561-020-0582-5)
 
-
-The current demo gives the possibility to infill near-surface air temperature anomalies in the [HadCRUT4](https://www.metoffice.gov.uk/hadobs/hadcrut4/) and [HadCRUT5](https://www.metoffice.gov.uk/hadobs/hadcrut5/) datasets.
-
 ## Install duck with conda
 
-We need `mamba` to install the requirements.
-Use your existing `mamba` or install it from here:
-https://github.com/conda-forge/miniforge
+We need `mamba` to install the requirements. Use your existing `mamba` or install it from here: https://github.com/conda-forge/miniforge
 
 Get the source:
 ```
@@ -62,14 +54,9 @@ duck stop
 ```
 
 
-## Set up a birdhouse ecosystem server {#birdhouse_ecosystem}
+## Set up a birdhouse ecosystem server 
 
-If you are already familiar with installing single standalone WPS
-(follow the `installation`{.interpreted-text role="ref"} guides in the
-documentations of e.g. emu), then you are ready to set up a birdhouse
-containing flyingpigeon (providing scientific analyses methods),
-malleefowl (to search and fetch data) and the pheonix (a graphic
-interface for a web browser including a WMS).
+If you are already familiar with installing single standalone WPS (follow the `installation`{.interpreted-text role="ref"} guides in the documentations of e.g. emu), then you are ready to set up a birdhouse containing flyingpigeon (providing scientific analyses methods), malleefowl (to search and fetch data) and the pheonix (a graphic interface for a web browser including a WMS).
 
 ### General Remarks
 

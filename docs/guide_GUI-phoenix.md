@@ -19,7 +19,7 @@ https://clint.dkrz.de
 ![](images/phoenix-duck-infill.png)
 
 * Wait for the process to finish ...
-![](images/media/phoenix-duck-monitor.png)
+![](images/phoenix-duck-monitor.png)
 
 
 * When the process has finished go to the *details* to show the outputs
