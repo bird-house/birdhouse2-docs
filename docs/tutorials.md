@@ -29,17 +29,8 @@ Extreme event detection and prediction for cyclon activity, droughts, heatwaves 
 <!-- 
 docs/source/examples.rst
 tutorial_basic tutorial_pywps tutorial_wps tutorial_server tutorial_r
-
-
-## Get familiar with birdhouse 
-general tutorials 
-
-## Calculate climate indices
-Finch 
-
-## Extreme weather event detection
-CLINT summer school
  -->
+
 
 ## How to contribute to this documentation
 
