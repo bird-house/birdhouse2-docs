@@ -1,12 +1,9 @@
-# WPS general usage {#wps_tutorial}
+# WPS general usage
 
 In the following we show an example with a [Word Counter]{.title-ref}
 function which is enabled as a web-service using WPS.
 
-::: {.contents local="" depth="2"}
-:::
-
-## Defining a [Word Counter]{.title-ref} function
+## Defining a *\`Word Counter\`* function
 
 In the following example we will use the [Word Counter]{.title-ref}
 function:
@@ -19,28 +16,27 @@ function:
 
 This Python function has the following parts:
 
--   a [name]{.title-ref} or \`identifier\`: count_words
+-   a \`name or\` \`identifier\`: count_words
 -   a \`description\`: Calculates number of words \...
 -   \`input parameters\`: file (mime type [text/plain]{.title-ref})
--   \`output parameters\`: json_doc (mime type
-    [application/json]{.title-ref})
+-   \`output parameters\`: json_doc (mime type [application/json]{.title-ref})
 
 Now, we would like to run this function remotely using a simple
 web-service. To get this web-service we can use WPS. The function parts
 (name, parameters) are all we need to know to define a WPS process.
 
-## WPS definition of [Word Counter]{.title-ref}
+## WPS definition of *\`Word Counter\`*
 
 To add a new proccess you need to define the input and output
 parameters. For the [Word Counter]{.title-ref} process this looks like
 the following.
 
-![image](_images/WpsInOut.png)
+![image](images/WPS/WpsInOut.png)
 
 Here is another example for a [Text Generator]{.title-ref} process. We
 will use it later for chaining processes.
 
-![image](_images/WpsTextGenerator.png)
+![image](images/WPS/WpsTextGenerator.png)
 
 There are two types of input/output parameters:
 
@@ -59,62 +55,40 @@ An input/output parameter has:
 -   in case of literal parameters a list of [allowed
     values]{.title-ref}.
 
-For more details see the following [WPS Tutorial]().
 
 ## Chaining WPS processes {#chaining_WPS}
 
-If you know the input/output parameters of processes you can chain
-processes. For example we will chain a [Text Generator]{.title-ref}
-process to our [Word Counter]{.title-ref} process.
+If you know the input/output parameters of processes you can chain processes. For example we will chain a [Text Generator]{.title-ref} process to our [Word Counter]{.title-ref} process.
 
-![image](_images/WpsChain.png)
+![image](images/WPS/WpsChain.png)
 
-The [Text document]{.title-ref} output of the [Text
-Generator]{.title-ref} process becomes the input of [Word
-Counter]{.title-ref} process.
+The [Text document]{.title-ref} output of the [Text Generator]{.title-ref} process becomes the input of [Word Counter]{.title-ref} process.
 
-You can chain process manually by calling them one after the other. The
-WPS specification allows you to also chain process with a single WPS
-request. To get even more flexibility (using if-clauses, loops,
-monitoring \...) you can also use a
-`workflow engine <workflow>`{.interpreted-text role="term"}
-(`Taverna`{.interpreted-text role="term"}, `VisTrails`{.interpreted-text
-role="term"}, `Dispel4py`{.interpreted-text role="term"}, \...).
+You can chain process manually by calling them one after the other. The WPS specification allows you to also chain process with a single WPS request. To get even more flexibility (using if-clauses, loops, monitoring \...) you can also use a `workflow engine <workflow>`{.interpreted-text role="term"} (`Taverna`{.interpreted-text role="term"}, `VisTrails`{.interpreted-text role="term"}, `Dispel4py`{.interpreted-text role="term"}, \...).
 
-You will find more details about chaining in the [GeoProcessing
-document](http://geoprocessing.info/wpsdoc/Concepts#chaining) and the
-[GeoServer
-Tutorial](http://geoserver.geo-solutions.it/edu/en/wps/chaining_processes.html).
+You will find more details about chaining in the [GeoProcessing document](http://geoprocessing.info/wpsdoc/Concepts#chaining) and the [GeoServer Tutorial](http://geoserver.geo-solutions.it/edu/en/wps/chaining_processes.html).
 
 ## WPS process implementation with PyWPS
 
-There are several WPS implementations available
-(`GeoServer`{.interpreted-text role="term"}, `COWS`{.interpreted-text
-role="term"}, \...). In birdhouse, we use the Python implementation
-`PyWPS`{.interpreted-text role="term"}. In [PyWPS]{.title-ref} the [Word
-Counter]{.title-ref} process could look like the following:
+There are several WPS implementations available (`GeoServer`{.interpreted-text role="term"}, `COWS`{.interpreted-text role="term"}, \...). In birdhouse, we use the Python implementation `PyWPS`{.interpreted-text role="term"}. In [PyWPS]{.title-ref} the [Word Counter]{.title-ref} process could look like the following:
 
 ::: {.literalinclude language="python" emphasize-lines="8,16,24,32" linenos=""}
 \_tutorial/wps_word_counter.py
 :::
 
-You can see the definition of the input and output parameters and the
-`execute()` method where the real `count_words()` function is called.
-You will find more details about implementing a WPS process in the
-[PyWPS Tutorial](http://pywps.org/docs/).
+You can see the definition of the input and output parameters and the `execute()` method where the real `count_words()` function is called. You will find more details about implementing a WPS process in the [PyWPS Tutorial](http://pywps.org/docs/).
 
 ## Using WPS
 
 A WPS service has three operations:
 
 -   \`GetCapabilities\`: which processes are available
--   \`DescribeProcess\`: what are the input and output parameters of a
-    specific process
+-   \`DescribeProcess\`: what are the input and output parameters of a specific process
 -   \`Execute\`: run a process with parameters.
 
 The following diagram shows these operations:
 
-![image](../_images/wps_usage.png)
+![image](images/WPS/wps_usage.png)
 
 To call these process one can use simple HTTP request with key/value
 pairs:
@@ -123,8 +97,7 @@ pairs:
 
         http://localhost:8094/wps?&request=GetCapabilities&service=WPS&version=1.0.0
 
--   [DescribeProcess]{.title-ref} request for [wordcount]{.title-ref}
-    process:
+-   [DescribeProcess]{.title-ref} request for [wordcount]{.title-ref} process:
 
         http://localhost:8094/wps?&request=DescribeProcess&service=WPS&version=1.0.0&identifier=wordcount
 
@@ -148,14 +121,11 @@ exchanged with the communication details (process, parameters, \...).
 
 For more details see the following [WPS Tutorial]().
 
-There are also some [IPython
-notebooks](http://nbviewer.jupyter.org/github/bird-house/birdhouse-docs/tree/master/notebooks/tutorial/)
-which show the usage of WPS.
+There are also some [IPython notebooks](http://nbviewer.jupyter.org/github/bird-house birdhouse-docs/tree/master/notebooks/tutorial/) which show the usage of WPS.
 
 ## Calling [Word Counter]{.title-ref} with Birdy
 
-Now, we are using [Birdy]() wps command line client to access the
-[wordcount]{.title-ref} process.
+Now, we are using [Birdy]() wps command line client to access the [wordcount]{.title-ref} process.
 
 Which proccess are available ([GetCapabilities]{.title-ref}):
 
@@ -171,8 +141,7 @@ Which proccess are available ([GetCapabilities]{.title-ref}):
       {chomsky,helloworld,inout,ultimatequestionprocess,wordcount}
                           Run "birdy <command> -h" to get additional help.
 
-What input and output parameters does [wordcount]{.title-ref} have
-([DescribeProcess]{.title-ref}):
+What input and output parameters does [wordcount]{.title-ref} have ([DescribeProcess]{.title-ref}):
 
     $ birdy wordcount -h
     usage: birdy wordcount [-h] --text [TEXT] [--output [{output} [{output} ...]]]
@@ -194,17 +163,16 @@ Run [wordcount]{.title-ref} with a text document
     Output:
     output=http://localhost:8090/wpsoutputs/emu/output-37445d08-cf0f-11e4-ab7e-68f72837e1b4.txt
 
+<!-- 
 ### Hello World WPS (emu):
 
--   `Emu Example with Docker <emu:tutorial>`{.interpreted-text
-    role="ref"}
+-   `Emu Example with Docker <emu:tutorial>`{.interpreted-text role="ref"}
 
 ### Create a conda package
 
 ::: todo
 How to create a conda package
 :::
-
 ### Python syntax: {#python_guide}
 
 ``` ipython3
@@ -215,3 +183,5 @@ from os import system
 ```
 
 **Footnotes**
+
+ -->
