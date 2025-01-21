@@ -5,11 +5,11 @@ nav:
   - Applications List: apps.md
   - Application development: guide_applications.md
   - Portals for Climate Services: guide_GUI-phoenix.md
-  - Deployment Examples: guide_deploy.md
+  - Deploy a Climate Service: guide_deploy.md
+  - Services and Initiatives: initiatives.md
   - Tutorials: tutorials.md
-  - Initiatives: initiatives.md
   - Release Notes: release_notes.md
-  - References: bibliography.md 
+  - References: publications.md 
 theme:
   name: material
   logo: images/logo.svg
