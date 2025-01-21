@@ -3,6 +3,8 @@
 In the following we show an example with a [Word Counter]{.title-ref}
 function which is enabled as a web-service using WPS.
 
+> Find a detailed description of WPS usage at the [Birdhouse Workshop](https://birdhouse.readthedocs.io/projects/workshop/en/latest/pywps.html)
+
 ## Defining a *\`Word Counter\`* function
 
 In the following example we will use the [Word Counter]{.title-ref}
@@ -31,12 +33,12 @@ To add a new proccess you need to define the input and output
 parameters. For the [Word Counter]{.title-ref} process this looks like
 the following.
 
-![image](images/WPS/WpsInOut.png)
+![image](../images/WPS/WpsInOut.png)
 
 Here is another example for a [Text Generator]{.title-ref} process. We
 will use it later for chaining processes.
 
-![image](images/WPS/WpsTextGenerator.png)
+![image](../images/WPS/WpsTextGenerator.png)
 
 There are two types of input/output parameters:
 
@@ -60,7 +62,7 @@ An input/output parameter has:
 
 If you know the input/output parameters of processes you can chain processes. For example we will chain a [Text Generator]{.title-ref} process to our [Word Counter]{.title-ref} process.
 
-![image](images/WPS/WpsChain.png)
+![image](../images/WPS/WpsChain.png)
 
 The [Text document]{.title-ref} output of the [Text Generator]{.title-ref} process becomes the input of [Word Counter]{.title-ref} process.
 
@@ -88,7 +90,7 @@ A WPS service has three operations:
 
 The following diagram shows these operations:
 
-![image](images/WPS/wps_usage.png)
+![image](../images/WPS/wps_usage.png)
 
 To call these process one can use simple HTTP request with key/value
 pairs:
@@ -118,8 +120,6 @@ A process can be run [synchronously]{.title-ref} or \`asynchronously\`:
 Processes can be run with simple HTTP get-requests (as shown above) and
 also with HTTP post-requests. In the later case XML documents are
 exchanged with the communication details (process, parameters, \...).
-
-For more details see the following [WPS Tutorial]().
 
 There are also some [IPython notebooks](http://nbviewer.jupyter.org/github/bird-house birdhouse-docs/tree/master/notebooks/tutorial/) which show the usage of WPS.
 
@@ -162,6 +162,73 @@ Run [wordcount]{.title-ref} with a text document
     Execution status: ProcessSucceeded
     Output:
     output=http://localhost:8090/wpsoutputs/emu/output-37445d08-cf0f-11e4-ab7e-68f72837e1b4.txt
+
+
+## WPS Documentation {#appendix_wps_docs}
+
+-   [What is WPS?](http://geoprocessing.info/wpsdoc/Concepts#what)
+-   [WPS on OSGeo
+    Live](http://download.osgeo.org/livedvd/doc-dev/standards/wps_overview.html)
+-   [WPS
+    tutorial](http://wiki.ieee-earth.org/Documents/GEOSS_Tutorials/GEOSS_Provider_Tutorials/Web_Processing_Service_Tutorial_for_GEOSS_Providers/Section_2:_Introduction_to_WPS)
+-   [OGC Web Processing Service
+    Standard](http://www.opengeospatial.org/standards/wps)
+-   [PyWPS Wiki](http://wiki.rsg.pml.ac.uk/pywps/Main_Page)
+-   [GeoServer
+    tutorial](http://geoserver.geo-solutions.it/edu/en/wps/index.html)
+
+Talks:
+
+-   [The WPS 2.0 standard (preliminary
+    information)](http://www.slideshare.net/Bender82/2014-0715the-wps-20-standardpreliminary?related=2)
+-   [WPS Application
+    Patterns](http://www.slideshare.net/nuest/wps-application-patterns?related=1)
+-   [Using WPS (PyWPS) with Taverna
+    Orchestration](http://www.slideshare.net/JorgeMendesdeJesus/taverna?related=2)
+-   [Pywps a tutorial for beginners and
+    developers](http://www.slideshare.net/JorgeMendesdeJesus/pywps-a-tutorial-for-beginners-and-developers?related=3)
+-   [Zoo presentation
+    foss4g.jp-2011](http://www.slideshare.net/masarunarazaki/zoo-presentation-foss4gjp2011?related=4)
+
+## WPS Software
+
+WPS Server Software:
+
+-   `PyWPS`{.interpreted-text role="term"}
+-   GeoServer -
+    <http://docs.geoserver.org/stable/en/user/services/wps/index.html>
+-   Zoo - `http://www.zoo-project.org/`
+-   `COWS`{.interpreted-text role="term"}
+-   Deegree - <http://www.deegree.org/>
+-   52 North - <http://52north.org/communities/geoprocessing/wps/>
+
+WPS Client Software:
+
+-   `OWSLib Python Client <OWSLib>`{.interpreted-text role="term"}
+-   OpenLayers WPS Plugin -
+    <http://dev.openlayers.org/docs/files/OpenLayers/WPSClient-js.html>
+-   GeoTools WPS Module -
+    <http://docs.geotools.org/latest/userguide/unsupported/wps.html>
+-   52 North Java Client -
+    <http://52north.org/communities/geoprocessing/wps/index.html>
+-   52 North Javascript Client -
+    <http://geoprocessing.demo.52north.org:8080>
+-   WPS Javascript Client by Boundless -
+    <https://github.com/boundlessgeo/wps-gui>
+
+QGIS Desktop GIS with wps plugins:
+
+-   <http://www.qgis.org/en/site/>
+-   <http://plugins.qgis.org/plugins/wps/>
+-   <http://geolabs.fr/plugins.xml>
+
+uDig Desktop GIS with wps plugins:
+
+-   <http://udig.refractions.net/>
+-   <https://udig.github.io/docs/user/reference/Using%20the%20WPS%20plugin.html>
+-   <https://github.com/52North/uDig-WPS-plugin> (outdated)
+
+
 
 <!-- 
 ### Hello World WPS (emu):
