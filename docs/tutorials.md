@@ -28,7 +28,9 @@ result.get()[0]
 ```
 > Further tutorials on how to run the birdy client can be found at [birdy documentation] (https://birdy.readthedocs.io/en/latest/examples.html)
 
-> For further tutorials on pyWPS please have a look on [WPS Tutorials](tutorial_wps.md)
+> For further tutorials and information on pyWPS please have a look on [WPS Tutorials](sections/tutorial_wps.md)
+
+
 
 ## Calculating Climate Indices
 **Finch** is providing services to calculate climate indices widely used in climate change adaptation planing processes. Have a look on the examples of the [finch documentation](https://pavics-sdi.readthedocs.io/projects/finch/en/latest/notebooks/index.html), where executable *jupyter notebooks* are provided on how to calculate climate indices. 
