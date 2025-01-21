@@ -2,8 +2,13 @@
 
 Here you can find a collection of tutorials, provided by the several contributing initiatives.
 
-## Getting started: Calling a Service with python 
+## Getting started
 
+### Calling a pygeoapi Service with python 
+
+> To be developed
+
+### Calling a WPS Service with python 
 To call a service within a python code, [birdy](https://github.com/bird-house/birdy.git) is provided as a client to do this job. 
 
 ``` python 
@@ -16,6 +21,8 @@ result = emu_i.sleep(delay="1.0")
 result.get()[0]
 ```
 > Further tutorials on how to run the birdy client can be found at [birdy documentation] (https://birdy.readthedocs.io/en/latest/examples.html)
+
+> For further tutorials on pyWPS please have a look on [WPS Tutorials](tutorial_wps.md)
 
 ## Calculating Climate Indices
 **Finch** is providing services to calculate climate indices widely used in climate change adaptation planing processes. Have a look on the examples of the [finch documentation](https://pavics-sdi.readthedocs.io/projects/finch/en/latest/notebooks/index.html), where executable *jupyter notebooks* are provided on how to calculate climate indices. 
