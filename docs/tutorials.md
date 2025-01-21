@@ -2,14 +2,20 @@
 
 Here you can find a collection of tutorials, provided by the several contributing initiatives.
 
-## Getting started
 
-### Calling a pygeoapi Service with python 
+## Calling a **OGC API Processes service** with python 
 
-> To be developed
+To call a OGC API Processes service within a python code here is a small code snipped. Birdhouse provides the testsuite [*nandu*](https://nandu.readthedocs.io/en/latest/) complient to the OGCAPI Processes.  
 
-### Calling a WPS Service with python 
-To call a service within a python code, [birdy](https://github.com/bird-house/birdy.git) is provided as a client to do this job. 
+``` python 
+from owslib.ogcapi.processes import Processes
+nandu = Processes(url="http://localhost:5000")
+nandu.api()
+```
+> Clients and services are currently under development and will be provided by the upcomming releases. 
+
+## Calling a **WPS service** with python 
+To call a WPS service within a python code, [birdy](https://github.com/bird-house/birdy.git) is provided as a client to do this job. 
 
 ``` python 
 from birdy import WPSClient
