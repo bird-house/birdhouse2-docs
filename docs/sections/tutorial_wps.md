@@ -167,28 +167,19 @@ Run [wordcount]{.title-ref} with a text document
 ## WPS Documentation {#appendix_wps_docs}
 
 -   [What is WPS?](http://geoprocessing.info/wpsdoc/Concepts#what)
--   [WPS on OSGeo
-    Live](http://download.osgeo.org/livedvd/doc-dev/standards/wps_overview.html)
--   [WPS
-    tutorial](http://wiki.ieee-earth.org/Documents/GEOSS_Tutorials/GEOSS_Provider_Tutorials/Web_Processing_Service_Tutorial_for_GEOSS_Providers/Section_2:_Introduction_to_WPS)
--   [OGC Web Processing Service
-    Standard](http://www.opengeospatial.org/standards/wps)
+-   [WPS on OSGeo Live](http://download.osgeo.org/livedvd/doc-dev/standards/wps_overview.html)
+-   [WPS tutorial](http://wiki.ieee-earth.org/Documents/GEOSS_Tutorials/GEOSS_Provider_Tutorials/Web_Processing_Service_Tutorial_for_GEOSS_Providers/Section_2:_Introduction_to_WPS)
+-   [OGC Web Processing Service Standard](http://www.opengeospatial.org/standards/wps)
 -   [PyWPS Wiki](http://wiki.rsg.pml.ac.uk/pywps/Main_Page)
--   [GeoServer
-    tutorial](http://geoserver.geo-solutions.it/edu/en/wps/index.html)
+-   [GeoServer tutorial](http://geoserver.geo-solutions.it/edu/en/wps/index.html)
 
 Talks:
 
--   [The WPS 2.0 standard (preliminary
-    information)](http://www.slideshare.net/Bender82/2014-0715the-wps-20-standardpreliminary?related=2)
--   [WPS Application
-    Patterns](http://www.slideshare.net/nuest/wps-application-patterns?related=1)
--   [Using WPS (PyWPS) with Taverna
-    Orchestration](http://www.slideshare.net/JorgeMendesdeJesus/taverna?related=2)
--   [Pywps a tutorial for beginners and
-    developers](http://www.slideshare.net/JorgeMendesdeJesus/pywps-a-tutorial-for-beginners-and-developers?related=3)
--   [Zoo presentation
-    foss4g.jp-2011](http://www.slideshare.net/masarunarazaki/zoo-presentation-foss4gjp2011?related=4)
+-   [The WPS 2.0 standard (preliminary information)](http://www.slideshare.net/Bender82/2014-0715the-wps-20-standardpreliminary?related=2)
+-   [WPS Application Patterns](http://www.slideshare.net/nuest/wps-application-patterns?related=1)
+-   [Using WPS (PyWPS) with Taverna Orchestration](http://www.slideshare.net/JorgeMendesdeJesus/taverna?related=2)
+-   [Pywps a tutorial for beginners and developers](http://www.slideshare.net/JorgeMendesdeJesus/pywps-a-tutorial-for-beginners-and-developers?related=3)
+-   [Zoo presentation foss4g.jp-2011](http://www.slideshare.net/masarunarazaki/zoo-presentation-foss4gjp2011?related=4)
 
 ## WPS Software
 
@@ -227,8 +218,6 @@ uDig Desktop GIS with wps plugins:
 -   <http://udig.refractions.net/>
 -   <https://udig.github.io/docs/user/reference/Using%20the%20WPS%20plugin.html>
 -   <https://github.com/52North/uDig-WPS-plugin> (outdated)
-
-
 
 <!-- 
 ### Hello World WPS (emu):
