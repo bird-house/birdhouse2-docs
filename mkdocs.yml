@@ -18,5 +18,6 @@ plugins:
 #  - search
   - bibtex:
       bib_file: "references.bib"
+      csl_file: "nature.csl"
 # markdown_extensions:
 #  - footnotes
