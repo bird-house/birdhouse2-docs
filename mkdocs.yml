@@ -15,9 +15,9 @@ theme:
   logo: images/logo.svg
   favicon: images/favicon.ico
 plugins:
-#  - search
+  - search
   - bibtex:
       bib_file: "references.bib"
       csl_file: "nature.csl"
-# markdown_extensions:
-#  - footnotes
+markdown_extensions:
+  - footnotes

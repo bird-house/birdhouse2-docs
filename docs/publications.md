@@ -1,7 +1,6 @@
 # Publications
 
-Articles, book sections and conference proceedings and presentations
-related to the birdhouse projects:
+Selected articles, book sections, conference proceedings or presentations related to the birdhouse projects:
 
 **2024**
 Side event at UNCCD COP16 in Saudi Arabia 2024
