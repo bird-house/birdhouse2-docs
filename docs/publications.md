@@ -50,10 +50,10 @@ related to the birdhouse projects:
 -   Gerics Hamburg User-Developer Workshop
 
 
+
 # References 
 
-
-\bibliography
+\full_bibliography
 
 <!-- ## References {#bib_publications}
 
