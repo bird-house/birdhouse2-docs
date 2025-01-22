@@ -3,8 +3,47 @@
 Articles, book sections and conference proceedings and presentations
 related to the birdhouse projects:
 
-**2019:**
+**2024**
+Side event at UNCCD COP16 in Saudi Arabia 2024
 
+Poster at upcoming drought conference: Data Pipeline form raw data to Climate Information Drought management  workshop at drought conference 30.sep-02.oct 2024
+
+CODE Sprint will be in synergy with this pilot
+
+OGC concept note: Summary Report Innovation Days Europe 2024 Concept Note on FAIR Climate Services: connecting Data and Technology with Policymaking
+ 
+in review: 
+Engineering Report for OGC Climate and Disaster Resilience Pilot 2024 stage 1
+
+**2023**
+
+IGRASS
+
+**2022:**
+March: OGC Member Meeting (online)
+14. June: OGC Member Meeting Madrid
+August: FOSS4G: https://2022.foss4g.org/index.php 
+17-19 October:  Climate Observation Conference 
+31 October- 4 November Geoweek2022 of GEOS Ghana 
+6-7 Dec: OGC Innovation Days https://www.ogc.org/node/4813
+The OGC Member Meeting Agendas can be found here: https://portal.ogc.org/meet/
+DEPLOYMENT OF AI-ENHANCED SERVICES IN CLIMATE RESILIENCE INFORMATION SYSTEMS [@Hempelmann2022]
+
+
+**2021:**
+March2021: OGC Member Meeting (online)
+June2021: OGC Member Meeting (online)
+July2021: UNFCCC Climate Week Asia-Pacific (online)
+07. Sept: EMS 2021 (Online): [Program Link](https://meetingorganizer.copernicus.org/EMS2021/EMS2021-488.html) 
+28. Sept2021: UNFCCC Climate Week Africa (online) [Program Link](https://unfccc.int/ACW2021)
+09. Nov2021: UNFCCC COP26 (online) [Program Link](https://2nsbq1gn1rl23zol93eyrccj-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/COP26-Presidency-Programme.pdf)
+09. Dec2021: OGC Member Meeting (online)
+
+**2020:**
+Covid hybernation
+
+
+**2019:**
 -   [WPS Deployment at CORDEX Copernicus Workshop, Copenhagen](https://github.com/cehbrecht/wps-talk-copernicus-cordex-dmi-meeting-2019/blob/master/WPS-Deployment-Talk.pdf)
 -   [UN GIS Initiative Workshop at FOSS4G Bucharest](https://github.com/nilshempelmann/presentations/raw/master/birdhouse-foss4g-2019/Hempelmann_foss4g2019.pdf)
 
