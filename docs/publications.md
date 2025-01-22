@@ -1,10 +1,5 @@
 # Publications
 
-::: {.contents local="" depth="2"}
-:::
-
-## Talks and articles {#presentations}
-
 Articles, book sections and conference proceedings and presentations
 related to the birdhouse projects:
 
@@ -58,8 +53,15 @@ related to the birdhouse projects:
 
 -   Gerics Hamburg User-Developer Workshop
 
-## References {#bib_publications}
+
+# References 
+
+
+\bibliography
+
+<!-- ## References {#bib_publications}
 
 ::: bibliography
 bib_publications.bib
 :::
+ -->

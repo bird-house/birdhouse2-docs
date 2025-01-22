@@ -1,6 +1,6 @@
 # **Tutorials**
 
-Here you can find a collection of tutorials, provided by the several contributing initiatives.If you see a need of changing, updating or adding to this documentation, here is an *How To DO* on how to [contribute to this documentation](/section/tutorial_docs.md)
+Here you can find a collection of tutorials, provided by the several contributing initiatives.If you see a need of changing, updating or adding to this documentation, here is an *How To DO* on how to [contribute to this documentation](sections/tutorial_docs.md)
 
 ## Calling a **OGC API Processes service** with python 
 
