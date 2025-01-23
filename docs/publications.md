@@ -1,24 +1,25 @@
-# Publications
+# Publications and Presentations
 
 Selected articles, book sections, conference proceedings or presentations related to the birdhouse projects:
 
 **2024**
+
 Side event at UNCCD COP16 in Saudi Arabia 2024
 
-Poster at upcoming drought conference: Data Pipeline form raw data to Climate Information Drought management  workshop at drought conference 30.sep-02.oct 2024
+Poster at drought conference: Data Pipeline form raw data to Climate Information Drought management
 
-CODE Sprint will be in synergy with this pilot
+CLINT CODE Sprint 
 
 OGC concept note: Summary Report Innovation Days Europe 2024 Concept Note on FAIR Climate Services: connecting Data and Technology with Policymaking
  
-in review: 
 Engineering Report for OGC Climate and Disaster Resilience Pilot 2024 stage 1
 
 **2023**
 
-IGRASS
+IGARSS
 
 **2022:**
+
 March: OGC Member Meeting (online)
 14. June: OGC Member Meeting Madrid
 August: FOSS4G: https://2022.foss4g.org/index.php 
@@ -30,6 +31,7 @@ DEPLOYMENT OF AI-ENHANCED SERVICES IN CLIMATE RESILIENCE INFORMATION SYSTEMS [@H
 
 
 **2021:**
+
 March2021: OGC Member Meeting (online)
 June2021: OGC Member Meeting (online)
 July2021: UNFCCC Climate Week Asia-Pacific (online)
@@ -87,15 +89,4 @@ Covid hybernation
 
 -   Gerics Hamburg User-Developer Workshop
 
-
-
-# References 
-
-\full_bibliography
-
-<!-- ## References {#bib_publications}
-
-::: bibliography
-bib_publications.bib
-:::
- -->
+\bibliography

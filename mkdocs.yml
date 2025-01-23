@@ -9,7 +9,8 @@ nav:
   - Services and Initiatives: initiatives.md
   - Tutorials: tutorials.md
   - Release Notes: release_notes.md
-  - Further reading: publications.md 
+  - Further Reading: publications.md 
+  - References: references.md
 theme:
   name: material
   logo: images/logo.svg
