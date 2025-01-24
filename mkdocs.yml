@@ -9,7 +9,8 @@ nav:
   - Services and Initiatives: initiatives.md
   - Tutorials: tutorials.md
   - Release Notes: release_notes.md
-  - Further Reading: publications.md 
+  - Further Reading: publications.md
+  - Glossary: glossaty.md 
   - References: references.md
 theme:
   name: material
