@@ -1,4 +1,4 @@
-# **Deploy an ecosystem of Climate Services Infromation System**
+# **Deploy an ecosystem of Climate Services Information Systems**
 
 The **birdhouse framework** is modular organized to enable a flexible architecture design depending on the projects needs. To enable FAIR Climate Services the applications are cpmoient to international approved standards, mainly following OGC Standards. Therefore software components developed outside of the birdhouse framework can be combined in the architectures enshuring interoperability.
 

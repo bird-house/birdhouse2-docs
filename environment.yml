@@ -7,3 +7,4 @@ dependencies:
 - pandoc
 # docs
 - mkdocs-material
+- mkdocs-bibtex

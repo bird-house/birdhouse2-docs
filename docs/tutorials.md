@@ -1,7 +1,6 @@
-# Tutorials
+# **Tutorials**
 
-Here you can find a collection of tutorials, provided by the several contributing initiatives.
-
+Here you can find a collection of tutorials, provided by the several contributing initiatives.If you see a need of changing, updating or adding to this documentation, here is an *How To DO* on how to [contribute to this documentation](sections/tutorial_docs.md)
 
 ## Calling a **OGC API Processes service** with python 
 
@@ -26,7 +25,7 @@ emu.hello(name="Birdy").get()[0]
 result = emu_i.sleep(delay="1.0")
 result.get()[0]
 ```
-> Further tutorials on how to run the birdy client can be found at [birdy documentation] (https://birdy.readthedocs.io/en/latest/)
+> Further tutorials on how to run the birdy client can be found at [birdy documentation](https://birdy.readthedocs.io/en/latest/)
 
 > For further tutorials and information on pyWPS please have a look on [WPS Tutorials](sections/tutorial_wps.md)
 
@@ -44,47 +43,4 @@ docs/source/examples.rst
 tutorial_basic tutorial_pywps tutorial_wps tutorial_server tutorial_r
  -->
 
-
-## How to contribute to this documentation
-
-Clone the docs repo from GitHub:
-```console
-git clone https://github.com/bird-house/birdhouse2-docs.git
-
-cd birdhouse2-docs
-```
-
-Create conda environment:
-```console
-conda env create
-conda activate birdhouse2-docs
-```
-
-Build the docs:
-```console
-mkdocs build
-
-# html output is in folder site/
-```
-
-Or serve the docs for your browser:
-```console
-mkdocs serve
-```
-
-### Adding new pages
-
-Please read the docs at [mkdocs](https://www.mkdocs.org/) and also at [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
-
-There is a [user guide](https://www.mkdocs.org/user-guide/writing-your-docs/) on mkdocs describing how to add new pages with markdown.
-
-### Convert rst to markdown
-
-You can convert `rst` files to *markdown* using [pandoc](https://pandoc.org/).
-
-```console
-pandoc tutorial.rst -t markdown -o tutorial.md
-```
-
-Probably some edits are neccessary after the conversion.
 

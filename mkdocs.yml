@@ -9,8 +9,16 @@ nav:
   - Services and Initiatives: initiatives.md
   - Tutorials: tutorials.md
   - Release Notes: release_notes.md
-  - References: publications.md 
+  - Further Reading: publications.md 
+  - References: references.md
 theme:
   name: material
   logo: images/logo.svg
   favicon: images/favicon.ico
+plugins:
+  - search
+  - bibtex:
+      bib_file: "references.bib"
+      csl_file: "nature.csl"
+markdown_extensions:
+  - footnotes
