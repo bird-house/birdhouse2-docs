@@ -1,6 +1,10 @@
 # Glossary
 <!-- https://avillar.github.io/ogc-glossary-js/ -->
 
+term:glossary
+:   A list of specialized words with their definitions
+
+<!--
 OGC Open Geospatial Consortium The *Open Geospatial Consortium (OGC)* is an international voluntary consensus standards organization, originated in 1994. <https://en.wikipedia.org/wiki/Open_Geospatial_Consortium>, <http://www.opengeospatial.org/standards/wps>
 
 WPS Web Processing Service WPS is an open standard to search and run processes with a simple web-based interface. See: `wps_tutorial`{.interpreted-text role="ref"}.
@@ -268,3 +272,5 @@ GeoServer
     allows users to share and edit geospatial data.
     <http://docs.geoserver.org/stable/en/user/index.html>
 :::
+
+-->
