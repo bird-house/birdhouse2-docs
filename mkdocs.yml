@@ -24,3 +24,7 @@ plugins:
   - ezglossary
 markdown_extensions:
   - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
