@@ -7,7 +7,7 @@ dependencies:
 - pandoc
 # docs
 - mkdocs-material
-- pip: 
-    - mkdocs-ezglossary-plugin
-    - mkdocs-bibtex
+# plugins
+- mkdocs-ezglossary-plugin
+- mkdocs-bibtex
 
