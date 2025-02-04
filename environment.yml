@@ -8,6 +8,6 @@ dependencies:
 # docs
 - mkdocs-material
 # plugins
-- mkdocs-ezglossary-plugin
 - mkdocs-bibtex
-
+- pip: 
+  - mkdocs-ezglossary-plugin
