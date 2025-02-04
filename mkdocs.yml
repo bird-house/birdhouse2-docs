@@ -9,7 +9,8 @@ nav:
   - Services and Initiatives: initiatives.md
   - Tutorials: tutorials.md
   - Release Notes: release_notes.md
-  - Further Reading: publications.md 
+  - Further Reading: publications.md
+  - Glossary: glossary.md 
   - References: references.md
 theme:
   name: material
@@ -20,5 +21,10 @@ plugins:
   - bibtex:
       bib_file: "references.bib"
       csl_file: "nature.csl"
+  - ezglossary
 markdown_extensions:
   - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
