@@ -2,6 +2,9 @@
 <!-- https://avillar.github.io/ogc-glossary-js/ -->
 
 
+An glossary compiled also be found in the IPCC, 2021: Annex VII: Glossary. [IPCC_2023]
+
+
 glossary:Open Geospatial Consortium (OGC)
 :   The *Open Geospatial Consortium (OGC)* is an international voluntary consensus standards organization, originated in 1994. <https://en.wikipedia.org/wiki/Open_Geospatial_Consortium>, <http://www.opengeospatial.org/standards/wps>
 
